@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "GothamBold";
+  src: url(/Gotham-Font/GothamBold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "GothamBook";
+  src: url(/Gotham-Font/GothamBook.ttf) format("truetype");
+}
+@font-face {
+  font-family: "GothamLight";
+  src: url(/Gotham-Font/GothamLight.ttf) format("truetype");
+}
+@font-face {
+  font-family: "GothamMedium";
+  src: url(/Gotham-Font/GothamMedium.ttf) format("truetype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.tesla-logo {
+  width: 150px;
+  height: 40px;
+  float: left;
+}
+
+.main-nav,
+ul {
+  list-style: none;
+  margin-left: 50px;
+}
+
+.main-nav ul li {
+  font-family: "GothamBold", sans-serif;
+  color: #fff;
+  font-size: 19px;
+  float: left;
+  padding-top: 10px;
+  margin-left: 100px;
+}
+
+.main-nav-side ul li {
+  font-family: "GothamBold", sans-serif;
+  color: white;
+  font-size: 19px;
+  float: right;
+  padding-top: 10px;
+  margin-right: 20px;
+}
+
+.contanier .hero-1 .hero-content,
+h1 {
+  font-family: "GothamBook", sans-serif;
+  color: white;
+  text-align: center;
+  padding-top: 170px;
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding-top: 10px;
+  font-family: "GothamLight", sans-serif;
+}
+
+.contanier {
+  margin: 20px auto;
+}
+
+.hero-1 {
+  background: url("/imgs/Model-3-Main-Hero-Section-LHD.jpeg") no-repeat center
+    center/cover;
+  height: 100vh;
+}
