@@ -65,6 +65,7 @@ h2 {
   color: white;
   text-align: center;
   padding-top: 10px;
+  padding-bottom: 400px;
   font-family: "GothamLight", sans-serif;
 }
 
@@ -76,4 +77,36 @@ h2 {
   background: url("/imgs/Model-3-Main-Hero-Section-LHD.jpeg") no-repeat center
     center/cover;
   height: 100vh;
+}
+
+.icons-btn ul {
+  list-style: none;
+  text-align: center;
+}
+
+.icons-btn ul li {
+  color: white;
+  font-family: "GothamMedium", sans-serif;
+  display: inline;
+  font-size: 30px;
+  padding-right: 120px;
+}
+
+.btn {
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 10px 80px;
+  background: none;
+  font-family: "GothamMedium", sans-serif;
+  font-size: 20px;
+}
+
+ol li {
+  color: white;
+  list-style: none;
+  display: inline;
+  font-family: "GothamMedium", sans-serif;
+  font-size: 17px;
+  margin-left: 300px;
 }
