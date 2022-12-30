@@ -110,3 +110,48 @@ ol li {
   font-size: 17px;
   margin-left: 300px;
 }
+
+.info-img {
+  float: left;
+  width: 80%;
+  background: url(/imgs/model-3-hero-a-desktop.jpeg) no-repeat center
+    center/cover;
+  height: 100vh;
+}
+
+.info-content h4 {
+  font-family: "GothamLight", sans-serif;
+  font-size: 18px;
+  float: right;
+  width: 20%;
+  text-align: left;
+  color: black;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.info-content h3 {
+  font-family: "GothamBook", sans-serif;
+  font-size: 30px;
+  padding-bottom: 30px;
+}
+
+.more-info {
+  font-family: "GothamBook", sans-serif;
+  font-size: 15px;
+  padding-top: 10px 20px;
+  color: rgb(47, 46, 46);
+  line-height: 1.5em;
+  margin-right: 50px;
+}
+
+.more-info a {
+  text-decoration: none;
+  text-decoration: underline;
+  color: rgb(47, 46, 46);
+}
+
+.more-info a:hover {
+  text-decoration: underline solid 2px;
+}
