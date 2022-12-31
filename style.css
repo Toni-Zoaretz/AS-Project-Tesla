@@ -56,12 +56,12 @@ h1 {
   font-family: "GothamBook", sans-serif;
   color: white;
   text-align: center;
-  padding-top: 170px;
-  font-size: 50px;
+  font-size: 40px;
+  padding-top: 150px;
 }
 
 h2 {
-  font-size: 17px;
+  font-size: 15px;
   color: white;
   text-align: center;
   padding-top: 10px;
@@ -70,7 +70,17 @@ h2 {
 }
 
 .contanier {
-  margin: 20px auto;
+  max-width: 960px;
+  margin: 30px auto;
+
+  /* left: 500px; */
+}
+
+.box-section-1 {
+  position: relative;
+  right: 100px;
+  top: 180px;
+  text-align: center;
 }
 
 .hero-1 {
@@ -79,28 +89,17 @@ h2 {
   height: 100vh;
 }
 
-/* .icons-btn ul {
-  list-style: none;
-  text-align: center;
-}
-
-.icons-btn ul li {
-  color: white;
-  font-family: "GothamMedium", sans-serif;
-  display: inline;
-  font-size: 30px;
-  padding-right: 120px;
-} */
-
 .btn-dark {
   color: white;
   border: 3px solid white;
   border-radius: 5px;
-  padding: 10px 80px;
+  padding: 10px 70px;
   background: none;
   font-family: "GothamMedium", sans-serif;
-  font-size: 18px;
-  margin-right: 600px;
+  font-size: 15px;
+  position: relative;
+  left: 10px;
+  /* margin-right: 600px; */
 }
 
 .btn-dark:hover {
@@ -109,21 +108,12 @@ h2 {
   cursor: pointer;
 }
 
-/* ol li {
-  color: white;
-  list-style: none;
-  display: inline;
-  font-family: "GothamMedium", sans-serif;
-  font-size: 17px;
-  margin-left: 100px;
-} */
-
 .info-img {
   float: left;
   width: 80%;
   background: url(/imgs/model-3-hero-a-desktop.jpeg) no-repeat center
     center/cover;
-  height: 100vh;
+  height: 80vh;
 }
 
 .info-content h4 {
@@ -138,19 +128,30 @@ h2 {
   margin-top: 10px;
 }
 
-.info-content h3 {
-  font-family: "GothamBook", sans-serif;
+h6 {
+  font-size: 20px;
+  font-family: "GothamLight", sans-serif;
+  padding-top: 70px;
+}
+
+h3 {
   font-size: 30px;
+  font-family: "GothamBook", sans-serif;
+  padding-top: 10px;
   padding-bottom: 30px;
 }
 
 .more-info {
   font-family: "GothamBook", sans-serif;
-  font-size: 15px;
-  padding-top: 10px 20px;
+  font-size: 17px;
   color: rgb(47, 46, 46);
   line-height: 1.5em;
   margin-right: 50px;
+}
+
+.btn-section-2 {
+  padding-top: 500px;
+  margin-bottom: 100px;
 }
 
 .more-info a {
@@ -164,14 +165,14 @@ h2 {
 }
 
 .btn-light {
-  color: black;
-  border: 3px solid black;
+  color: rgb(77, 75, 75);
+  border: 4px solid black;
   border-radius: 5px;
-  padding: 10px 70px;
+  padding: 10px 80px;
   margin-right: 20px;
   background: none;
   font-family: "GothamMedium", sans-serif;
-  font-size: 15px;
+  font-size: 17px;
   float: right;
 }
 
@@ -183,48 +184,38 @@ h2 {
 
 .btn-light-plus {
   color: black;
-  border: 3px solid black;
+  border: 4px solid black;
   border-radius: 50%;
   padding-left: 6px;
   padding-right: 6px;
-  margin-left: 1520px;
   background: none;
   font-family: "GothamLight", sans-serif;
   font-size: 30px;
+  float: right;
+  margin-right: 20px;
 }
 
 .learn-more {
+  /* color: rgb(120, 120, 120);  */
+  color: rgb(100, 99, 99);
+  border: none;
+  background: none;
   font-family: "GothamMedium", sans-serif;
-  font-size: 15px;
+  font-size: 17px;
   float: right;
-  padding-right: 12px;
-  margin-top: 10px;
+  margin-right: 20px;
+  padding-top: 5px;
 }
 
-.box-section-2 {
-  padding-top: 400px;
-  padding-bottom: 20px;
-}
+/* .box-section-2 {
+font-size:;
+} */
 
 .third-section {
   width: 100%;
   background: url(/imgs/Model-3-horizental.jpg) no-repeat center center/cover;
   height: 80vh;
 }
-
-/* .icons-btn-third ul li h6 {
-  color: white;
-  font-family: "GothamMedium", sans-serif;
-  display: inline;
-  font-size: 30px;
-  padding-right: 120px;
-} */
-
-/* .icons-btn-third ul li h6 .icons-details {
-  padding-top: 5px;
-  text-align: center;
-  display: inline;
-} */
 
 .icons-details ul li {
   font-size: 15px;
@@ -234,50 +225,99 @@ h2 {
   padding-right: 50px;
 }
 
-.box-section-third {
-  padding-top: 580px;
-  margin-left: 500px;
+.box-section-3 {
+  padding-left: 550px;
+  padding-top: 740px;
   text-align: center;
 }
+
+/* .hero-1 {
+  height: 100vh;
+} */
+
 .btn-section-1 {
   float: right;
 }
+
 .s-3-1 {
-  float: left;
+  float: right;
+  position: absolute;
+  left: 200px;
 }
 
 .mph-162 {
-  float: left;
+  float: right;
+  position: absolute;
+  left: 350px;
 }
 
 .awd {
-  float: left;
+  float: right;
+  position: absolute;
+  left: 550px;
 }
 
 h5 {
   color: white;
-  font-size: 30px;
+  font-size: 26px;
   font-family: "GothamBook", sans-serif;
 }
 
+/* .contanier-3 {
+ 
+} */
+
+.contanier-2 {
+  margin-bottom: 10px;
+}
+
 .contanier {
-  margin: 30px auto;
+  margin-top: 0;
+  /* padding-top: 150px; */
+  /* padding-bottom: 150px; */
+  /* margin-left: 700px; */
+  /* text-align: center; */
 }
-
-.contanier-1 {
-  margin-top: 180px;
-  margin-left: 700px;
-  text-align: center;
-}
-
-/*sorry for repeating myself so many times with h4*/
 
 h4 {
   color: white;
-  font-size: 15px;
+  font-size: 12px;
   font-family: "GothamLight", sans-serif;
-  line-height: 1.5em;
+  line-height: 3em;
 }
+
+/* .contanier-4 {
+  max-width: 960px;
+  margin: 30px auto;
+  height: 50vh;
+}
+
+.contanier-4 h3 {
+  padding: 0;
+}
+
+.contanier-4 h6 {
+  padding: 0;
+}
+
+.contanier-4 h6 .text {
+  font-family: "GothamLight", sans-serif;
+  font-size: 18px;
+  border: 2px solid black;
+  padding-left: 100px;
+}
+
+.contanier-4 .btn-section-2 last-section {
+  padding: 0;
+  /* margin-right: 100px; */
+
+/* footer {
+  height: 20vh;
+} */
+
+/* .last-section {
+
+} */
 
 /* .mph-162 ul li h4 {
   color: white;
