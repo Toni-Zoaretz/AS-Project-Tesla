@@ -27,6 +27,47 @@
   float: left;
 }
 
+.btn-chat {
+  background: white;
+  position: fixed;
+  left: 1800px;
+  bottom: 120px;
+  padding: 15px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.btn-arrow {
+  background: none;
+  position: absolute;
+  left: 900px;
+  top: 890px;
+  padding: 15px;
+  cursor: pointer;
+  border: 0;
+}
+
+.btn-arrow i {
+  color: white;
+
+  font-size: 20px;
+  animation: move 1s infinite;
+}
+
+@keyframes move {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .main-nav,
 ul {
   list-style: none;
@@ -129,9 +170,10 @@ h2 {
 }
 
 h6 {
-  font-size: 20px;
+  font-size: 18px;
   font-family: "GothamLight", sans-serif;
   padding-top: 100px;
+  color: rgb(52, 49, 49);
 }
 
 h3 {
@@ -139,13 +181,19 @@ h3 {
   font-family: "GothamBook", sans-serif;
   padding-top: 10px;
   padding-bottom: 30px;
+  color: rgb(52, 49, 49);
+}
+
+.more-info span {
+  color: #606162;
+  font-family: "GothamMedium", sans-serif;
 }
 
 .more-info {
   font-family: "GothamBook", sans-serif;
-  font-size: 17px;
-  color: rgb(47, 46, 46);
-  line-height: 1.5em;
+  font-size: 15px;
+  color: rgb(98, 94, 94);
+  line-height: 1.2em;
   margin-right: 50px;
 }
 
@@ -157,6 +205,7 @@ h3 {
 .more-info a {
   text-decoration: none;
   text-decoration: underline;
+  text-underline-offset: 3px;
   color: rgb(47, 46, 46);
 }
 
@@ -168,7 +217,7 @@ h3 {
   color: rgb(77, 75, 75);
   border: 3px solid black;
   border-radius: 5px;
-  padding: 10px 70px;
+  padding: 9px 65px;
   margin-right: 20px;
   background: none;
   font-family: "GothamMedium", sans-serif;
@@ -192,7 +241,7 @@ h3 {
   font-family: "GothamLight", sans-serif;
   font-size: 30px;
   float: right;
-  margin-right: 17px;
+  margin-right: 7px;
   /* margin-right: 20px; */
 }
 
@@ -206,7 +255,7 @@ h3 {
   float: right;
   /* margin-righ; */
   /* padding-top: 5px; */
-  padding-right: 20px;
+  padding-right: 7px;
   padding-top: 10px;
 }
 
@@ -387,9 +436,60 @@ h4 {
   margin: 30px auto;
 }
 
-.text {
-  border: 2px solid black;
+.footer {
+  /* padding-top: 30px;
+  padding-bottom: 10px; */
+  margin-right: 200px;
+  position: relative;
 }
+
+.text {
+  position: absolute;
+  top: 20px;
+  right: 220px;
+  font-family: "GothamBook", sans-serif;
+  font-size: 15px;
+  line-height: 1.3em;
+  color: rgb(79, 77, 77);
+}
+
+.contanier-4 .text a {
+  text-decoration: none;
+  text-decoration: underline;
+  color: rgb(47, 46, 46);
+  text-underline-offset: 3px;
+}
+
+.contanier-4 .text a:hover {
+  text-decoration: underline solid 2px;
+}
+
+.footer .contanier-4 h6 {
+  padding-top: 10px;
+  font-size: 17px;
+  color: rgb(79, 77, 77);
+}
+
+.footer .contanier-4 h3 {
+  padding-top: 7px;
+  font-size: 27px;
+}
+
+.contanier-4 .btn-section-2-last-section {
+  position: absolute;
+  padding-bottom: 50px;
+  padding-right: 500px;
+}
+
+/* .contanier-4 .btn-section-2-last-section .btn-light {
+  color: black;
+  border: 3px solid black;
+  border-radius: 5px;
+  padding: 10px 70px;
+  background: none;
+  font-family: "GothamMedium", sans-serif;
+  font-size: 15px;
+} */
 
 /* .third-section .box-section-3 .mph-162 ul li h4 {
   color: black;
