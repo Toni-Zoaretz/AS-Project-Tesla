@@ -22,16 +22,19 @@
 }
 
 .tesla-logo {
-  width: 150px;
+  width: 100px;
   height: 40px;
   float: left;
+  margin-left: 50px;
+  margin-top: 15px;
+  cursor: pointer;
 }
 
 .btn-chat {
   background: white;
   position: fixed;
   left: 1800px;
-  bottom: 120px;
+  top: 800px;
   padding: 15px;
   border-radius: 50%;
   border: none;
@@ -71,25 +74,32 @@
 .main-nav,
 ul {
   list-style: none;
-  margin-left: 50px;
+  margin-left: 250x;
 }
 
 .main-nav ul li {
+  max-width: 960px;
+  margin: 30px auto;
   font-family: "GothamBold", sans-serif;
   color: #fff;
-  font-size: 19px;
+  font-size: 15px;
+  position: relative;
+  padding: 10px;
+  left: 530px;
   float: left;
-  padding-top: 10px;
-  margin-left: 100px;
+  margin-right: 10px;
+  text-align: center;
+}
+
+.main-nav ul li:hover {
+  border-radius: 5px;
+  background-color: #6b6a74;
+  cursor: pointer;
 }
 
 .main-nav-side ul li {
-  font-family: "GothamBold", sans-serif;
-  color: white;
-  font-size: 19px;
-  float: right;
-  padding-top: 10px;
-  margin-right: 20px;
+  left: 900px;
+  font-size: 15px;
 }
 
 .contanier .hero-1 .hero-content,
@@ -108,13 +118,12 @@ h2 {
   padding-top: 10px;
   padding-bottom: 400px;
   font-family: "GothamLight", sans-serif;
+  cursor: pointer;
 }
 
 .contanier {
   max-width: 960px;
   margin: 30px auto;
-
-  /* left: 500px; */
 }
 
 .box-section-1 {
@@ -140,7 +149,6 @@ h2 {
   font-size: 15px;
   position: relative;
   left: 10px;
-  /* margin-right: 600px; */
 }
 
 .btn-dark:hover {
@@ -152,9 +160,12 @@ h2 {
 .info-img {
   float: left;
   width: 80%;
-  background: url(/imgs/model-3-hero-a-desktop.jpeg) no-repeat center
-    center/cover;
-  height: 80vh;
+  background: url(/imgs/img_section_2.png) no-repeat center center/cover;
+  height: 100vh;
+  opacity: 1;
+  transform: translate3d(0, 20px, 0);
+  transition: 0.5s all ease-in-out;
+  transform: translate3d(0, 0, 0);
 }
 
 .info-content h4 {
@@ -199,7 +210,7 @@ h3 {
 
 .btn-section-2 {
   padding-top: 400px;
-  margin-bottom: 100px;
+  margin-top: 100px;
 }
 
 .more-info a {
@@ -242,26 +253,24 @@ h3 {
   font-size: 30px;
   float: right;
   margin-right: 7px;
-  /* margin-right: 20px; */
+}
+
+.btn-light-plus:hover {
+  color: white;
+  background-color: black;
+  cursor: pointer;
 }
 
 .learn-more {
-  /* color: rgb(120, 120, 120);  */
   color: rgb(100, 99, 99);
   border: none;
   background: none;
   font-family: "GothamMedium", sans-serif;
   font-size: 15px;
   float: right;
-  /* margin-righ; */
-  /* padding-top: 5px; */
   padding-right: 7px;
   padding-top: 10px;
 }
-
-/* .box-section-2 {
-font-size:;
-} */
 
 .third-section {
   width: 100%;
@@ -277,27 +286,6 @@ font-size:;
   padding-right: 50px;
 }
 
-.box-section-3 ul {
-  /* max-width: 960px;
-  margin: 30px auto;
-  /* padding-left: 500px; */
-  /* text-align: center; */
-  /* padding-top: 550px; */
-}
-
-/* .third-section .box-section-1 {
-  min-width: 960px;
-  margin: 30px auto;
-  position: relative;
-  right: 100px;
-  top: 180px;
-  text-align: center;
-} */
-
-/* .hero-1 {
-  height: 100vh;
-} */
-
 .btn-section-1 {
   float: right;
 }
@@ -305,19 +293,19 @@ font-size:;
 .s-3-1 {
   float: right;
   position: absolute;
-  left: 200px;
+  left: 220px;
 }
 
 .mph-162 {
   float: right;
   position: absolute;
-  left: 350px;
+  left: 370px;
 }
 
 .awd {
   float: right;
   position: absolute;
-  left: 550px;
+  left: 580px;
 }
 
 h5 {
@@ -326,32 +314,28 @@ h5 {
   font-family: "GothamBook", sans-serif;
 }
 
-/* .contanier-3 {
-  max-width: 960px;
-  margin: 30px auto;
-  /* position: relative; */
-
-/* .third-section .box-section-1 {
-  float: right;
-  position: absolute;
-  left: 200px;
-} */
-
 .contanier-3 ul li {
   padding-left: 20px;
-  /* line-height: 1em; */
+}
+
+.side-content {
+  opacity: 0;
+  transform: translate3d(0, 20px, 0);
+  transition: 0.9s all ease-in-out;
+  animation-iteration-count: 1;
+}
+
+.side-content:hover {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
 }
 
 .contanier-2 {
-  margin-bottom: 10px;
+  margin-bottom: 150px;
 }
 
 .contanier {
   margin-top: 0;
-  /* padding-top: 150px; */
-  /* padding-bottom: 150px; */
-  /* margin-left: 700px; */
-  /* text-align: center; */
 }
 
 h4 {
@@ -362,11 +346,8 @@ h4 {
 }
 
 .third-section .box-section-1-last ul {
-  /* היה פה ul li  */
   max-width: 960px;
   margin: 30px auto;
-  /* position: relative;
-  top: 500px; */
 }
 
 .third-section .box-section-1-last .awd {
@@ -386,11 +367,6 @@ h4 {
   padding-top: 550px;
   text-align: left;
 }
-/* 
-.third-section .box-section-1-last ul h5 {
-  padding-right: 150px;
-  padding-left: 150px;
-} */
 
 .third-section .box-section-1-last ul li h4 {
   text-align: center;
@@ -413,17 +389,6 @@ h4 {
   right: 100px;
 }
 
-/* .third-section .box-section-3 ul {
-  padding-left: 400px;
-} */
-
-/* .third-section .box-section-3 ul li {
-} */
-
-/* .third-section .box-section-3 ul li {
-
-} */
-
 .third-section .contanier-3 ul li h4 {
   color: black;
   font-size: 15px;
@@ -437,8 +402,6 @@ h4 {
 }
 
 .footer {
-  /* padding-top: 30px;
-  padding-bottom: 10px; */
   margin-right: 200px;
   position: relative;
 }
@@ -480,97 +443,3 @@ h4 {
   padding-bottom: 50px;
   padding-right: 500px;
 }
-
-/* .contanier-4 .btn-section-2-last-section .btn-light {
-  color: black;
-  border: 3px solid black;
-  border-radius: 5px;
-  padding: 10px 70px;
-  background: none;
-  font-family: "GothamMedium", sans-serif;
-  font-size: 15px;
-} */
-
-/* .third-section .box-section-3 .mph-162 ul li h4 {
-  color: black;
-  /* line-height: 1em; */
-/* padding-left: 30px;
-  padding-right: 30px; */
-
-/* .third-section .box-section-3 .awd ul li h4 {
-  color: black;
-  /* line-height: 1em; */
-/* padding-left: 30px;
-  padding-right: 30px; */
-
-/* .third-section .box-section-3 .mph-162 ul li h5 h4 {
-  color: black;
-  font-size: 20px;
-  font-family: "GothamLight", sans-serif;
-  line-height: 3em;
-} */
-/* .contanier-4 {
-  max-width: 960px;
-  margin: 30px auto;
-  height: 50vh;
-}
-
-.contanier-4 h3 {
-  padding: 0;
-}
-
-.contanier-4 h6 {
-  padding: 0;
-}
-
-.contanier-4 h6 .text {
-  font-family: "GothamLight", sans-serif;
-  font-size: 18px;
-  border: 2px solid black;
-  padding-left: 100px;
-}
-
-.contanier-4 .btn-section-2 last-section {
-  padding: 0;
-  /* margin-right: 100px; */
-
-/* footer {
-  height: 20vh;
-} */
-
-/* .last-section {
-
-} */
-
-/* .mph-162 ul li h4 {
-  color: white;
-  font-size: 15px;
-  font-family: "GothamLight", sans-serif;
-  line-height: 1.3em;
-} */
-
-/* .awd ul li h4 {
-  color: white;
-  font-size: 15px;
-  font-family: "GothamLight", sans-serif;
-  line-height: 1.3em;
-} */
-
-/* .third-section .box-section-third .icons-btn-third ul li .s-3.1 h5 {
-  color: white;
-  font-family: "GothamBook", sans-serif;
-  font-size: 28px;
-}
-
-.third-section .box-section-third .icons-btn-third ul li h4 {
-  color: white;
-  font-family: "GothamLight", sans-serif;
-  font-size: 15px;
-} */
-
-/* .icons-btn-third ol li {
-  color: white;
-  list-style: none;
-  font-family: "GothamBold", sans-serif;
-  font-size: 10px;
-} */
