@@ -1,18 +1,19 @@
 @font-face {
   font-family: "GothamBold";
-  src: url(/Gotham-Font/GothamBold.ttf) format("truetype");
+  src: url(Assets/Gotham-Font/GothamBold.ttf) format("truetype");
 }
+
 @font-face {
   font-family: "GothamBook";
-  src: url(/Gotham-Font/GothamBook.ttf) format("truetype");
+  src: url(Assets/Gotham-Font/GothamBook.ttf) format("truetype");
 }
 @font-face {
   font-family: "GothamLight";
-  src: url(/Gotham-Font/GothamLight.ttf) format("truetype");
+  src: url(Assets/Gotham-Font/GothamLight.ttf) format("truetype");
 }
 @font-face {
   font-family: "GothamMedium";
-  src: url(/Gotham-Font/GothamMedium.ttf) format("truetype");
+  src: url(/Assets/Gotham-Font/GothamMedium.ttf) format("truetype");
 }
 
 * {
@@ -134,8 +135,8 @@ h2 {
 }
 
 .hero-1 {
-  background: url("/imgs/Model-3-Main-Hero-Section-LHD.jpeg") no-repeat center
-    center/cover;
+  background: url("/Assets/imgs/Model-3-Main-Hero-Section-LHD.jpeg") no-repeat
+    center center/cover;
   height: 100vh;
 }
 
@@ -160,11 +161,11 @@ h2 {
 .info-img {
   float: left;
   width: 80%;
-  background: url(/imgs/img_section_2.png) no-repeat center center/cover;
+  background: url(/Assets/imgs/img_section_2.png) no-repeat center center/cover;
   height: 100vh;
   opacity: 1;
   transform: translate3d(0, 20px, 0);
-  transition: 0.5s all ease-in-out;
+  transition: all 0.4s ease;
   transform: translate3d(0, 0, 0);
 }
 
@@ -274,7 +275,8 @@ h3 {
 
 .third-section {
   width: 100%;
-  background: url(/imgs/Model-3-horizental.jpg) no-repeat center center/cover;
+  background: url(/Assets/imgs/Model-3-horizental.jpg) no-repeat center
+    center/cover;
   height: 80vh;
 }
 
