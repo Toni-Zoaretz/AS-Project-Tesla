@@ -19,7 +19,7 @@ https://tz-tesla.netlify.app/
 
 ![plot](/Assets/imgs/%E2%80%8F%E2%80%8Fscreenshot_section_3.PNG)
 
-### Deployment
+### Deployment:
 
 To deploy this project run
 
